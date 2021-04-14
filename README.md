@@ -2,71 +2,28 @@
 
 # Logistic-regression-on-the-titanic-dataset
 
-# INTRODUCTION
+# Content
 
-The sinking of the RMS Titanic is one of the most infamous
-shipwrecks in history.
+In this project I'm attempting to do data analysis on the Titanic Dataset. In the first step I'm doing a very quick data exploration and preprocessing on a visual level, plotting some simple plots to understand the data better. Then I've done some data cleaning and built a Classifier that can predict whether a passenger survived or not.
 
-In this challenge, we ask you to complete the analysis of what sorts
-of people were likely to survive.
 
-In particular, we ask you to apply the tools of machine learning to
-predict which passengers survived the tragedy.
+#  Tools and Packages
 
-# GOALS AND OBJECTIVE
+In this project I've used the following tools and Python packages:
 
-The purpose of this project is to document the process I
-went through to create my predictions for Titanic
-Survivor Prediction.
+Jupyter Notebooks: This is the software that lets us run Python code in the browser and intermix markdown with cells containing code.
 
-The objective of this project was to build a classification
-model that could successfully determine whether a
-Titanic passenger lived or died.
+Numpy: This is pythons main scientific computing library. Its important for Data Science as all libraries in PyData Ecosystem rely on NumPy as one of their main building blocks
 
-# SOFTWARE REQUIRED
+Pandas: This is the data analysis tool of choice in Python. It allows fast analysis and data cleaning and preparation using powerful data structures like dataframes and series.
 
-TOOLS USED
+Matplotlib: The data visualisation package of Python. Has a very similar feel to MalLab's graphical plotting and works well with numpy and pandas.
 
-1. Anaconda Navigator- 1.9.6
-2. Jupyter Notebook- 5.7.4
+Seaborn: Statistical plotting library built on top of Matplotlib. It is also designed to work very well with pandas dataframes objects.
 
-LIBRARY USED
+Scikit-learn: The machine learning package of Python. Makes implementing ML Algorithms extremely simple.
 
-1. Analyzing: Numpy, Pandas , Sci-kit Learn
-2. Visualization : Matplotlib , Seaborn
 
-# LOGISTIC REGRESSION
+# Results
 
-Logistic regression is basically a supervised classification
-algorithm. In a classification problem, the target variable(or
-output), y, can take only discrete values for given set of
-features(or inputs), X.
-
-Some of the examples of classification problems are Email
-spam or not spam, Online transactions Fraud or not Fraud.
-
-# IMPLEMENTATION
-
-Importing the necessary libraries
-Importing the dataset
-Cleaning and analyzing the dataset
-Building the model
-Using logistic regression for making prediction
-
-# METHOD
-
-IMPORTING THE NECESSARY LIBRARIES
-
-READ AND EXPLRE THE DATA
-
-CLEANING AND ANALYSING THE
-DATA
-
-DATA VISUALIZATION
-
-BUILIDING THE MODEL
-
-MAKING PREDICTION AND
-CALCULATING ACCURACY
-
-RESULT
+The classifier built here has a prediction score of 0.81, i.e., we get an average accuracy of 80+%. This is a pretty good accuracy for starters and could be improved upon by coming up with newer, better features by using some feature engineering. This is something I could work on in the future.
